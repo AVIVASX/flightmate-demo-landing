@@ -32,13 +32,13 @@ export default function Hero() {
           <h1 className="text-3xl md:text-5xl font-bold tracking-tight mb-4">
             {language === "en" ? (
               <>
-                Shop from <span className="text-primary">USA</span> to{" "}
+                Shop in <span className="text-primary">USA</span> and send to{" "}
                 <span className="text-secondary">Peru</span>
               </>
             ) : (
               <>
-                Compra desde <span className="text-primary">USA</span> a{" "}
-                <span className="text-secondary">Perú</span>
+                Compra en <span className="text-primary">USA</span> y envía a{" "}
+                <span className="text-secondary">Perú, Colombia, Guatemala</span>
               </>
             )}
           </h1>
